@@ -2,7 +2,7 @@
     import "../app.css";
     import Icon from '@iconify/svelte';
     import Card from "../components/card.svelte";
-    import Footer from "../components/footer.svelte";
+    
     
     import Header from '../components/header.svelte'
     import Button from '../components/button.svelte'
@@ -19,16 +19,16 @@
             <a href='/stack'>The Stack</a>
         </button>
         <button>
-            <a href='/tea'>The Tea</a>
+            <a href='/certifications'>Certifications</a>
         </button>
         <button>
-            <a href='/me'>The Me</a>
+            <a href='/me'>About Me</a>
         </button>
         
     </nav>
     <main class='h-full my-4'>
         <slot/>
     </main>
-    <Footer addClass=''/>
+    
 </div>
 
