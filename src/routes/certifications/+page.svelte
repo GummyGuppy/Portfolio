@@ -6,9 +6,9 @@
 
 <main class='h-full shadow-2xl p-4'>
 
-    <div class='certifications flex px-12 justify-around items-start mt-12  h-3/4'>
+    <div class='certifications flex px-12 justify-around items-start mt-12 h-3/4'>
 
-        <section class='flex flex-col gap-4 p-6 bg-slate-200 shadow-2xl'>
+        <section class='flex flex-col gap-4 p-6 bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 shadow-2xl'>
 
             <h1 class='text-2xl text-center'>Professional</h1>
 
@@ -38,7 +38,7 @@
     
     
         </section>
-        <section class='flex flex-col p-6 bg-slate-200 shadow-2xl'>
+        <section class='flex flex-col p-6 bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 shadow-2xl'>
     
             <h1 class='text-2xl text-center'>FreeCodeCamp</h1>
             <div class='flex gap-4 items-center'>
@@ -77,12 +77,11 @@
         </section>
 
     </div>
-    <section class='about-certs flex flex-col items-center mb-12 justify-center'>
+    <section class='about-certs flex flex-col items-center justify-center'>
         <h1>Resources I use:</h1>
         <div class='flex gap-4 justify-center items-center'>
             <Icon icon="logos:udemy" color="gray" width={64}/>
             <Icon icon="simple-icons:freecodecamp" color="green" width={48}/>
-
         </div>
         
     </section>

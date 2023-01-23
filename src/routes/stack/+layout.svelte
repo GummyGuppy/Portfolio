@@ -2,17 +2,26 @@
 
 </script>
 
-<section class='flex flex-col p-6 justify-start mx-4 h-full drop-shadow-2xl shadow-2xl bg-blue-300'>
+<section class='flex flex-col  justify-start mx-4 h-full '>
 
-    <h1 class='text-2xl'>The Stack</h1>
+    <h1 class='text-2xl text-white font-black tracking-widest'>The Stack.</h1>
     <div class='flex'>
         
-        <aside class='w-1/4 flex flex-col bg-red-400'>
+        <aside class=' flex flex-col h-96 gap-2 items-start justify-start'>
             
-            <a href="/stack/elixir">elixir</a>
-            <a href="/stack/phoenix">phoenix</a>
-            <a href="/stack/rust">rust</a>
-            <a href="/stack/aws">aws</a>
+            <button class='btn'>
+                <a href="/stack/elixir">elixir</a>
+            </button>
+            <button class='btn'>
+                <a href="/stack/phoenix">phoenix</a>
+            </button>
+            <button class='btn'>
+                <a href="/stack/rust">rust</a>
+            </button>
+            <button class='btn'>
+                <a href="/stack/aws">aws</a>
+            </button>
+            
             
         </aside>
         <div class='w-full description text-center'>

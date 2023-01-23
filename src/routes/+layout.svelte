@@ -1,28 +1,24 @@
 <script>
     import "../app.css";
     import Icon from '@iconify/svelte';
-    import Card from "../components/card.svelte";
-    
-    
+    import Card from "../components/card.svelte";    
     import Header from '../components/header.svelte'
     import Button from '../components/button.svelte'
-
-
     
 </script>
   
-<div class="flex flex-col h-screen justify-between">
-    <Header addClass='h-10 bg-red-500'/>
-    <nav class='flex gap-4  self-center justify-center mt-12'>
+<div class="flex flex-col h-screen justify-between bg-cover" style="background-image: url('https://img.freepik.com/premium-photo/rows-shelves-with-goods-boxes-modern-industry-warehouse-store-factory-warehouse-s_61243-279.jpg?w=740')">
 
-        <button>
-            <a href='/stack'>The Stack</a>
+    <nav class='flex gap-2 self-center justify-center my-12'>
+
+        <button class='btn font-extrabold'>
+            <a href='/stack'>Stack</a>
         </button>
-        <button>
+        <button class='btn font-extrabold'>
             <a href='/certifications'>Certifications</a>
         </button>
-        <button>
-            <a href='/me'>About Me</a>
+        <button class='btn font-extrabold'>
+            <a href='/me'>About</a>
         </button>
         
     </nav>
